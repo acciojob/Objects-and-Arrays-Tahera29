@@ -5,8 +5,8 @@ const person = {
   age: 80,
 };
 const team = players;
-const team1= team;
-const cap1= person;
+const team1= players.split();
+const cap1= Object.assign((), person);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
